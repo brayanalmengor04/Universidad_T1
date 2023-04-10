@@ -14,11 +14,11 @@ public class Telefono {
         this.tamañoPantalla = tamañoPantalla;
     }
     
-    public void llamar(int numero){
-        System.out.println("Llamando al numero : "+numero +"...");
+    public void llamar(){
+        System.out.println("Llamando al numero");
     }
     
-    public void enviarMensaje (String mensaje){
-        System.out.println("Enviando el mensaje :"+mensaje+"...");
+    public void enviarMensaje (){
+        System.out.println("Enviando el mensaje");
     }
 }
