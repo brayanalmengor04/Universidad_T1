@@ -29,35 +29,7 @@ public class Main {
         Telefono telefono = new Telefono(marca, modelo, tamañoPantalla); 
         
         // Simulaccion metodos 
-        do{
-            System.out.println("\tQue desea realizar (Telefono)" 
-            +"\n1.Llamar Telefono "
-            +"\n2.Enviar Mensaje "
-            +"\n3. Salir"
-            +"\n.Opcion :");
-            option= Integer.parseInt(sc.nextLine());
-            System.out.println(""); 
-            
-            switch (option) {
-                case 1:
-                    System.out.println("Proporcione el numero que desea llamar :");
-                    telefonoNum = Integer.parseInt(sc.nextLine()); 
-                    telefono.llamar(telefonoNum);
-                    break;
-                case 2:  
-                    System.out.println("Proporcione el mensaje enviar :"); 
-                    mensaje= sc.nextLine();  
-                    telefono.enviarMensaje(mensaje);
-                    break; 
-                    
-                case 3:
-                    System.out.println("Programa Finalizado...");
-                    break;
-                default:
-                    System.out.println("Error , Opcion Incorrecta");
-            }
-            
-        }while (option!=3);
+        System.out.println("Marca teléfono :"+teléfono.);
         
     }
 }
