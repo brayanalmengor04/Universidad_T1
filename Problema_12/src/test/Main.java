@@ -29,7 +29,8 @@ public class Main {
         Telefono telefono = new Telefono(marca, modelo, tamañoPantalla); 
         
         // Simulaccion metodos 
-        System.out.println("Marca teléfono :"+teléfono.);
+        System.out.println(telefono.llamar());
+        System.out.println(telefono.enviarMensaje());
         
     }
 }
